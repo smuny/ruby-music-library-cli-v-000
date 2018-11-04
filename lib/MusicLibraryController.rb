@@ -10,17 +10,17 @@ class MusicLibraryController
     input = gets.strip
   case input
       puts "Welcome to your music library!"
-    when input = list_songs
+    when list_songs
     puts "To list all of your songs, enter 'list songs'." 
-    when input = list_artists
+    when list_artists
     puts "To list all of the artists in your library, enter 'list artists'."
-    when input = list_genres
+    when list_genres
     puts "To list all of the genres in your library, enter 'list genres'."
-    when input = list_songs_by_artist
+    when list_songs_by_artist
     puts "To list all of the songs by a particular artist, enter 'list artist'."
-    when input = list_songs_by_genre
+    when list_songs_by_genre
     puts "To list all of the songs of a particular genre, enter 'list genre'."
-    when input = play_song
+    when play_song
     puts "To play a song, enter 'play song'."
     puts "To quit, type 'exit'."
     puts "What would you like to do?"
