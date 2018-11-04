@@ -7,15 +7,21 @@ class MusicLibraryController
   case call
     input = ''
     while input != 'exit'
-    when list_songs
+ 
       puts "Welcome to your music library!"
-    when
-    puts "To list all of your songs, enter 'list songs'." when
+    when list_songs
+    puts "To list all of your songs, enter 'list songs'." 
+    when list_artists
     puts "To list all of the artists in your library, enter 'list artists'."
+    when list_genres
     puts "To list all of the genres in your library, enter 'list genres'."
+    when list_songs_by_artist
     puts "To list all of the songs by a particular artist, enter 'list artist'."
+    when list_songs_by_genre
     puts "To list all of the songs of a particular genre, enter 'list genre'."
+    when play_song
     puts "To play a song, enter 'play song'."
+    when 
     puts "To quit, type 'exit'."
     puts "What would you like to do?"
     
