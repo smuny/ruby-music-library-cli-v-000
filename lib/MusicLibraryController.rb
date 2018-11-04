@@ -21,7 +21,6 @@ class MusicLibraryController
     puts "To list all of the songs of a particular genre, enter 'list genre'."
     when play_song
     puts "To play a song, enter 'play song'."
-    when 
     puts "To quit, type 'exit'."
     puts "What would you like to do?"
     
