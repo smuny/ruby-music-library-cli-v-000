@@ -9,7 +9,7 @@ class MusicLibraryController
     while input != 'exit'
   case input
       puts "Welcome to your music library!"
-    when list_songs
+    when input = list_songs
     puts "To list all of your songs, enter 'list songs'." 
     when list_artists
     puts "To list all of the artists in your library, enter 'list artists'."
