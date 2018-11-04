@@ -5,9 +5,10 @@ class MusicLibraryController
   end
   
   def call
+    input = gets.strip
     input = ''
     while input != 'exit'
-    input = gets.strip
+    
   case input
       puts "Welcome to your music library!"
     when list_songs
