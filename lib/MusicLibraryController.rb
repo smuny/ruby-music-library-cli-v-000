@@ -4,10 +4,10 @@ class MusicLibraryController
     MusicImporter.new(path).import
   end
   
-  case call
+  def call
     input = ''
     while input != 'exit'
- 
+  case
       puts "Welcome to your music library!"
     when list_songs
     puts "To list all of your songs, enter 'list songs'." 
